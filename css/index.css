@@ -1,7 +1,20 @@
 @charset "utf-8";
 
+/* base */
+.base{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.base-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .base-head, .base-foot{
     text-align: center;
+}
+.base-body{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .base-title{
     font-size: 2rem;
@@ -20,4 +33,28 @@
 }
 .base-btn:hover{
     background-color: #f6cdd5;
+}
+
+/* service */
+.service-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item{
+    width: 33.3333333%;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 1.5rem 2rem;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service-title{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.service-desc{
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    text-align: justify;
 }

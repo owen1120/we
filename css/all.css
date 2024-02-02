@@ -3,6 +3,7 @@
 /* helper */
 .container{
     max-width: 1200px;
+    box-sizing: border-box;
 }
 .mx-auto{
     margin-left: auto;
