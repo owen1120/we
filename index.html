@@ -10,6 +10,7 @@
     <meta property="og:image" content="https://owen1120.github.io/we/images/og-index.png">
     <meta property="og:locale" content="zh_TW">
     <title>We Studio</title>
+    <script type="module" src="./plugin/scroll/scroll.js"></script>
     <link rel="shortcut icon" href="./images/logo-header.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/all.css">
@@ -17,6 +18,7 @@
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
     rel="stylesheet"/>
+    <link rel="stylesheet" href="./plugin/scroll/animation.css">
 </head>
 <body>
     <header class="header">
@@ -78,10 +80,10 @@
 
     <section class="base base-service">
         <div class="base-container container mx-auto">
-            <header class="base-head">
+            <header class="base-head ani ani-fadeIn ani-move-down">
                 <h3 class="base-title">service</h3>
             </header>
-            <div class="base-body">
+            <div class="base-body ani ani-fadeIn">
                 <div class="service">
                     <div class="service-items">
                         <div class="service-item">
@@ -248,11 +250,73 @@
         </div>
     </section>
 
-    <section class="base base-build"></section>
+    <section class="base base-build">
+        <div class="base-container container mx-auto">
+            <header class="base-head">
+                <h3 class="base-title">easy build</h3>
+            </header>
+            <div class="base-body mx-auto">
+                <div class="build">
+                    <ol class="build-ol">
+                        <li class="build-li build-li-1">
+                            <div class="build-container">
+                                <h4 class="build-title">規劃與佈局</h4>
+                                <p class="build-desc">企劃專員會親自前往了解您的需求，並提出專業意見與您討論網站未來的規劃與方向性。</p>
+                            </div>
+                        </li>
+                        <li class="build-li build-li-2">
+                            <div class="build-container">
+                                <h4 class="build-title">設計與開發</h4>
+                                <p class="build-desc">依討論與簽約內容開始建置後台系統功能，並同步規劃設計網站，完成後會與客戶做最後確認。</p>
+                            </div>
+                        </li>
+                        <li class="build-li build-li-3">
+                            <div class="build-container">
+                                <h4 class="build-title">測試與交付</h4>
+                                <p class="build-desc">測試完畢，一切功能正常後，We 會把網站完整交付給您，真正輕鬆擁有。</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <footer class="base-foot">
+                <div class="base-btns">
+                    <a href="./process.html" class="base-btn">see all features</a>
+                </div>
+            </footer>
+        </div>
+    </section>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-head">
+            <img src="./images/logo-footer.png" alt="We Studio" width="60" height="58" class="footer-img footer-img-logo">
+            <p class="footer-desc">&copy; 2024 we studio</p>
+        </div>
+        <div class="footer-body">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a href="./service.html" class="footer-link">what we do</a>
+                </li>
+                <li class="footer-li">
+                    <a href="./about.html" class="footer-link">who we are</a>
+                </li>
+                <li class="footer-li">
+                    <a href="./works.html" class="footer-link">our projects</a>
+                </li>
+                <li class="footer-li">
+                    <a href="./process.html" class="footer-link">how we do</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
     
-    <aside class="aside"></aside>
+    <aside class="aside">
+        <div class="aside-head">
+            <a href="#" class="aside-link aside-link-top">
+                <i class="ri-arrow-up-circle-line"></i>
+            </a>
+        </div>
+    </aside>
 
 </body>
 </html>

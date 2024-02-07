@@ -146,3 +146,39 @@
 .base-intro .base-btn:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+/* build */
+.base-build .base-body{
+    max-width: 400px;
+}
+.build-li{
+    background-color: #777;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transform: skewX(-15deg);
+}
+.build-container{
+    transform: skewX(15deg);
+}
+.build-li + .build-li{
+    margin-top: 2rem;
+}
+.build-li-1{
+    background-color: #f4ba54;
+}
+.build-li-2{
+    background-color: #eaa666;
+}
+.build-li-3{
+    background-color: #cf7688;
+}
+.build-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.build-desc{
+    margin-top: 1rem;
+    line-height: 1.5;
+}
