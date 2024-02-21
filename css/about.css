@@ -1,1 +1,88 @@
 @charset "utf-8";
+
+.state{
+    margin: 0 -1rem;
+    background-color: #fff;
+    padding-top: 5rem;
+}
+.state-head{
+    text-align: center;
+}
+.state-body{
+    margin: 3rem 0;
+}
+.state-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.state-desc{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 1rem;
+}
+.state-img{
+    width: 100%;
+    height: auto;
+}
+.state-ul{
+    display: flex;
+    justify-content: center;
+}
+.state-li{
+    text-align: center;
+}
+.state-li + .state-li{
+    border-left: solid 1px rgba(0, 0, 0, 0.1);
+}
+.state-number, .state-unit, .state-term, .state-tips{
+    display: block;
+    margin: 0 3rem;
+}
+.state-number, .state-unit, .state-term{
+    font-weight: 600;
+    color: #3eb5fe;
+}
+.state-unit, .state-term{
+    margin: 1rem;
+}
+.state-number{
+    font-size: 5rem;
+}
+.state-unit{
+    font-size: 1.5rem;
+}
+.state-term{
+    font-size: 2rem;
+}
+.state-tips{
+    color: rgba(0, 0, 0, 0.7);
+}
+.state-li:nth-child(even) .state-number, .state-li:nth-child(even) .state-unit, .state-li:nth-child(even) .state-term{
+    color: #33d8ab;
+}
+
+/* env */
+.env{
+    display: flex;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+.env-head{
+    width: 33.3333333%;
+}
+.env-body{
+    width: 66.6666666%;
+}
+.env-img{
+    max-width: 100%;
+    height: auto;
+}
+.env-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.env-desc{
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.7);
+}
